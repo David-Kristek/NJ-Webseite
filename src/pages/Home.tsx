@@ -54,7 +54,7 @@ function Home() {
                   5.3. 2022 spielen wir unsere Hits vom neuen Album vor
                   bayerischem Publikum auf einer Freilichtbühn.
                 </p>
-                <a className="text-indigo-500 inline-flex items-center">
+                <a className="text-indigo-500 inline-flex items-center" href="#">
                   Lern mehr
                   <svg
                     className="w-4 h-4 ml-2"
@@ -83,7 +83,7 @@ function Home() {
                   24.5. Findet unser bisher größtes Konzert in der O2-Arena
                   statt, es wird euch bestimmt Spaß machen
                 </p>
-                <a className="text-indigo-500 inline-flex items-center">
+                <a className="text-indigo-500 inline-flex items-center" href="#">
                   Lern mehr
                   <svg
                     className="w-4 h-4 ml-2"
