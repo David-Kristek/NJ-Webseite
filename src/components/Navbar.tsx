@@ -5,8 +5,7 @@ interface Props {
 }
 
 export default function Navbar() {
-  const location = useLocation();
-  console.log(location);
+  const {pathname} = useLocation();
 
   return (
     <nav className="border-gray-200 px-2 sm:px-4 py-2.5 bg-gray-800 h-auto">
@@ -14,7 +13,7 @@ export default function Navbar() {
         <Link to="#" className="flex">
           <img src="./logo.png" className="h-10 mr-3" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
-            Guten Tag
+            Vorstellung Eidechse
           </span>
         </Link>
         <button
@@ -50,29 +49,26 @@ export default function Navbar() {
             ></path>
           </svg>
         </button>
-        <div
-          className="hidden w-3/12 md:block"
-          id="mobile-menu"
-        >
+        <div className="hidden w-3/12 md:block" id="mobile-menu">
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium w-full justify-around">
             <li>
-              <Link to="/" className="nav-item" aria-current="page">
-                Home
+              <Link to="/" className={`nav-item ${pathname === "/" && "text-white font-bold"}`} aria-current="page">
+                Start
               </Link>
             </li>
             <li>
-              <Link to="/about" className="nav-item">
-                About
+              <Link to="/uber_uns" className={`nav-item ${pathname === "/uber_uns" && "text-white font-bold"}`}>
+              Über uns
               </Link>
             </li>
             <li>
-              <Link to="/questions" className="nav-item">
-                Questions
+              <Link to="/fragen" className={`nav-item ${pathname === "/fragen" && "text-white font-bold"}`}>
+                Frage
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="nav-item">
-                Contact
+              <Link to="/kontakt" className={`nav-item ${pathname === "/kontakt" && "text-white font-bold"}`}>
+                Kontakt
               </Link>
             </li>
           </ul>

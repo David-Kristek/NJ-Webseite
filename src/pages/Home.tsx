@@ -6,354 +6,125 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <div className="container mx-auto px-6 p-6 bg-white">
-        <div className="mb-16 text-center">
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900  sm:text-4xl">
-            Our life
-          </p>
-        </div>
-        <div className="flex flex-wrap my-12 ">
-          <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8">
-            <div className="flex items-center mb-6">
-              <svg
-                width="20"
-                height="20"
-                fill="currentColor"
-                className="h-6 w-6 text-indigo-500"
-                viewBox="0 0 1792 1792"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z"></path>
-              </svg>
-              <div className="ml-4 text-xl">Increase sales</div>
-            </div>
-            <p className="leading-loose text-gray-500 text-md">
-              Receive more sales by selling across multple sales channels
-              instead of just having a single point of entry.
-            </p>
-          </div>
-          <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8">
-            <div className="flex items-center mb-6">
-              <svg
-                width="20"
-                height="20"
-                fill="currentColor"
-                className="h-6 w-6 text-indigo-500"
-                viewBox="0 0 1792 1792"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z"></path>
-              </svg>
-              <div className="ml-4 text-xl">Overlays</div>
-            </div>
-            <p className="leading-loose text-gray-500 text-md">
-              Apply beautiful overlays to every product image distributed
-              through our platform. A visual touch.
-            </p>
-          </div>
-          <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8">
-            <div className="flex items-center mb-6">
-              <svg
-                width="20"
-                height="20"
-                fill="currentColor"
-                className="h-6 w-6 text-indigo-500"
-                viewBox="0 0 1792 1792"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z"></path>
-              </svg>
-              <div className="ml-4 text-xl">Control</div>
-            </div>
-            <p className="leading-loose text-gray-500 text-md">
-              Apply filters and control which products to sell on each sales
-              channel. E.g. exclude products with low margins.
-            </p>
-          </div>
-          <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8">
-            <div className="flex items-center mb-6">
-              <svg
-                width="20"
-                height="20"
-                fill="currentColor"
-                className="h-6 w-6 text-indigo-500"
-                viewBox="0 0 1792 1792"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z"></path>
-              </svg>
-              <div className="ml-4 text-xl">Mapping</div>
-            </div>
-            <p className="leading-loose text-gray-500 text-md">
-              Map product categories with each sales channels&#x27; own
-              categories and achieve better results and lower costs.
-            </p>
-          </div>
-          <div className="w-full border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0 p-8">
-            <div className="flex items-center mb-6">
-              <svg
-                width="20"
-                height="20"
-                fill="currentColor"
-                className="h-6 w-6 text-indigo-500"
-                viewBox="0 0 1792 1792"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z"></path>
-              </svg>
-              <div className="ml-4 text-xl">Fill the missing</div>
-            </div>
-            <p className="leading-loose text-gray-500 text-md">
-              Modify products with extra properties and achieve the maximum
-              output for each installed sales channel.
-            </p>
-          </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 p-8">
-            <div className="flex items-center mb-6">
-              <svg
-                width="20"
-                height="20"
-                fill="currentColor"
-                className="h-6 w-6 text-indigo-500"
-                viewBox="0 0 1792 1792"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z"></path>
-              </svg>
-              <div className="ml-4 text-xl">Dynamic Texts</div>
-            </div>
-            <p className="leading-loose text-gray-500 text-md">
-              Build unique product titles and descriptions instead of spending
-              days manually editing each product.
-            </p>
-          </div>
-        </div>
-      </div>
-      <section>
-        <div className="container max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white ">
-          <div className="flex flex-wrap -mx-8">
+      <section className="bg-blend-darken bg-[url('./concert.jpg')] bg-no-repeat	bg-bottom	bg-cover py-10">
+        <div className="container max-w-7xl mx-auto p-4 sm:p-6 lg:p-8  mt-20">
+          <div className="flex flex-wrap -mx-8 ">
             <div className="w-full lg:w-1/2 px-8">
               <div className="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
-                <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading ">
-                  Sed ac magna sit amet risus tristique interdum, at vel velit
-                  in hac habitasse platea dictumst.
+                <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading text-white mt-4">
+                  Die coolste und tollste Band unter der Sonne, die man
+                  unbedingt hören muss
                 </h2>
-                <p className="mb-8 leading-loose text-gray-500 ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  sagittis, quam nec venenatis lobortis, mi risus tempus nulla,
-                  sed porttitor est nibh at nulla. Praesent placerat enim ut ex
-                  tincidunt vehicula. Fusce sit amet dui tellus.
+                <p className="mb-8 leading-loose text-white text-lg">
+                  Unsere Gruppe wurde in Tschechien gegründet. Wir spielen
+                  hauptsächlich Psychedelic und Progressive Rock. Seit der
+                  Gründung haben wir 2 Alben veröffentlicht –{" "}
+                  <b>Letzter Tag auf der Erde </b> <br />
+                  und <b> Wir sind Chaos </b>.
                 </p>
                 <div className="w-full md:w-1/3">
                   <button
                     type="button"
-                    className="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+                    className="py-2 px-3  bg-white hover:bg-green-700 focus:ring-green-500 focus:ring-offset-green-200  w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
                   >
-                    See more
+                    <div className="flex items-center justify-center">
+                      <span className="pr-5">Alben sehen</span>
+                      <img src="./spotify.png" className="h-10 mr-3 max-h-8" />
+                    </div>
                   </button>
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-1/2 px-8">
-              <ul className="space-y-12">
-                <li className="flex -mx-4">
-                  <div className="px-4">
-                    <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-600">
-                      1
-                    </span>
-                  </div>
-                  <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold ">
-                      Responsive Elements
-                    </h3>
-                    <p className="text-gray-500  leading-loose">
-                      All elements are responsive and provide the best display
-                      in all screen size. It&#x27;s magic !
-                    </p>
-                  </div>
-                </li>
-                <li className="flex -mx-4">
-                  <div className="px-4">
-                    <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-600">
-                      2
-                    </span>
-                  </div>
-                  <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold ">
-                      Flexible Team
-                    </h3>
-                    <p className="text-gray-500  leading-loose">
-                      Flexibility is the key. All team is available 24/24 and
-                      joinable every day on our hotline.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex -mx-4">
-                  <div className="px-4">
-                    <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-600">
-                      3
-                    </span>
-                  </div>
-                  <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold ">
-                      Ecologic Software
-                    </h3>
-                    <p className="text-gray-500 leading-loose">
-                      Our Software are ecologic and responsable. Green is not
-                      just a color, it&#x27;s a way of life.
-                    </p>
-                  </div>
-                </li>
-              </ul>
+            <div className="w-full lg:w-1/2 px-8"></div>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap -m-4 justify-evenly">
+            <div className="p-4 lg:w-1/3">
+              <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                  Koncert
+                </h2>
+                <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
+                  Landsberg am Lech
+                </h1>
+                <p className="leading-relaxed mb-3">
+                  5.3. 2022 spielen wir unsere Hits vom neuen Album vor
+                  bayerischem Publikum auf einer Freilichtbühn.
+                </p>
+                <a className="text-indigo-500 inline-flex items-center">
+                  Lern mehr
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className="p-4 lg:w-1/3">
+              <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                  Koncert
+                </h2>
+                <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
+                  Prag – O2 Arena
+                </h1>
+                <p className="leading-relaxed mb-3">
+                  24.5. Findet unser bisher größtes Konzert in der O2-Arena
+                  statt, es wird euch bestimmt Spaß machen
+                </p>
+                <a className="text-indigo-500 inline-flex items-center">
+                  Lern mehr
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto flex flex-wrap">
-          <div className="flex flex-wrap w-full">
-            <div className="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
-              <div className="flex relative pb-12">
-                <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
-                  <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                </div>
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                  </svg>
-                </div>
-                <div className="flex-grow pl-4">
-                  <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
-                    STEP 1
-                  </h2>
-                  <p className="leading-relaxed">
-                    VHS cornhole pop-up, try-hard 8-bit iceland helvetica.
-                    Kinfolk bespoke try-hard cliche palo santo offal.
-                  </p>
-                </div>
-              </div>
-              <div className="flex relative pb-12">
-                <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
-                  <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                </div>
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                  </svg>
-                </div>
-                <div className="flex-grow pl-4">
-                  <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
-                    STEP 2
-                  </h2>
-                  <p className="leading-relaxed">
-                    Vice migas literally kitsch +1 pok pok. Truffaut hot chicken
-                    slow-carb health goth, vape typewriter.
-                  </p>
-                </div>
-              </div>
-              <div className="flex relative pb-12">
-                <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
-                  <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                </div>
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <circle cx="12" cy="5" r="3"></circle>
-                    <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-                  </svg>
-                </div>
-                <div className="flex-grow pl-4">
-                  <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
-                    STEP 3
-                  </h2>
-                  <p className="leading-relaxed">
-                    Coloring book nar whal glossier master cleanse umami. Salvia
-                    +1 master cleanse blog taiyaki.
-                  </p>
-                </div>
-              </div>
-              <div className="flex relative pb-12">
-                <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
-                  <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                </div>
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                  </svg>
-                </div>
-                <div className="flex-grow pl-4">
-                  <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
-                    STEP 4
-                  </h2>
-                  <p className="leading-relaxed">
-                    VHS cornhole pop-up, try-hard 8-bit iceland helvetica.
-                    Kinfolk bespoke try-hard cliche palo santo offal.
-                  </p>
-                </div>
-              </div>
-              <div className="flex relative">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                    <path d="M22 4L12 14.01l-3-3"></path>
-                  </svg>
-                </div>
-                <div className="flex-grow pl-4">
-                  <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
-                    FINISH
-                  </h2>
-                  <p className="leading-relaxed">
-                    Pitchfork ugh tattooed scenester echo park gastropub
-                    whatever cold-pressed retro.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <img
-              className="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12"
-              src="https://dummyimage.com/1200x500"
-              alt="step"
-            />
+        <div className="container px-5 py-24 mx-auto">
+          <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              className="inline-block w-8 h-8 text-gray-400 mb-8"
+              viewBox="0 0 975.036 975.036"
+            >
+              <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+            </svg>
+            <p className="leading-relaxed text-lg">
+              Wir haben uns auf dem Gymnasium getroffen und wir alle mochten auf
+              Musikinstrumente spielen. Ich habe immer gedacht, es war nur ein
+              Hobby, aber jetzt verdienen wir Geld. <br />
+              Folge deinen Träumen und sie werden wahr.
+            </p>
+            <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+            <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
+              David Křístek
+            </h2>
+            <p className="text-gray-500">Bandgründer</p>
           </div>
         </div>
       </section>
