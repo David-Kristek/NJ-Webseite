@@ -21,67 +21,35 @@ function Questions() {
           </li>
           <li className="w-2/5">
             <p className="text-lg font-medium leading-6 text-gray-900">
-Was möchtest du werden? 
+ Wie oft und wo probiert ihr? 
             </p>
             <p className="mt-2">
               <p className="text-base leading-6 text-gray-500">
-                In most Australian states the government requires that all new
-                homes and apartments (along with certain types of building
-                extensions) built since 2010 be energy rated and achieve a
-                minimum of 6 Stars.
+                Es ist wie normal Beruf, wir probieren fünfmal oder mehr pro Woche in unserem Studio. 
               </p>
             </p>
           </li>
           <li className="w-2/5">
             <p className="text-lg font-medium leading-6 text-gray-900">
-              What is the general cost of an energy rating?
+              Wie ist es berühmt sein? 
             </p>
             <p className="mt-2">
               <p className="text-base leading-6 text-gray-500">
-                Simple energy rating prices vary greatly on the size and type of
-                building, generally an energy rating will cost somewhere between
-                $130 to $700+.
+              Wir müssen oft Fotos mit Fans machen, aber sonst es super Gefühl ist. 
               </p>
             </p>
           </li>
           <li className="w-2/5">
             <p className="text-lg font-medium leading-6 text-gray-900">
-              What information do I need to supply for an energy rating to be
-              completed??
+              Was macht ihr in euer Freizeit? 
             </p>
             <p className="mt-2">
               <p className="text-base leading-6 text-gray-500">
-                The information required to complete a full and comprehensive
-                energy report are the following final working drawings: Site
-                Plan, Floor Plan, Elevations, Sections, Lighting layout and
-                window schedule (including sizes of the existing windows).
+                 Leider haben wir nicht so viel Freizeit, aber manchmal schwimmen wie oder wir gehen ins Restaurant.
               </p>
             </p>
           </li>
-          <li className="w-2/5">
-            <p className="text-lg font-medium leading-6 text-gray-900">
-              Does building an extension need an energy rating?
-            </p>
-            <p className="mt-2">
-              <p className="text-base leading-6 text-gray-500">
-                Depended on the size of the extension you are building there is
-                a chance that it too will need to be energy rated. It&#x27;s
-                always best to check first before going ahead with construction.
-              </p>
-            </p>
-          </li>
-          <li className="w-2/5">
-            <p className="text-lg font-medium leading-6 text-gray-900">
-              What is the general cost of an energy rating?
-            </p>
-            <p className="mt-2">
-              <p className="text-base leading-6 text-gray-500">
-                Depended on the size of the extension you are building there is
-                a chance that it too will need to be energy rated. It&#x27;s
-                always best to check first before going ahead with construction.
-              </p>
-            </p>
-          </li>
+          
         </ul>
       </div>
     </div>
