@@ -11,21 +11,17 @@ function Questions() {
         <ul className="flex items-start gap-8 flex-wrap">
           <li className="w-2/5">
             <p className="text-lg font-medium leading-6 text-gray-900">
-              What is a home energy rating?
+               Warum heißen sie Vorstellung Eidechse? 
             </p>
             <p className="mt-2">
               <p className="text-base leading-6 text-gray-500">
-                A home energy rating is an estimated calculation into a homes
-                potential energy usage, which will determine the amount of
-                heating and cooling required to make its occupants comfortable.
-                It produces a star rating dependant on the amount of heating and
-                cooling loads which will be required, from 0 to 10 stars.
+                Weil wir allen gern Imagine Dragons hören. Dieses Name ist eigentlich  Parodie, weil Dragon win bisschen wir Eidechse aussieht. .
               </p>
             </p>
           </li>
           <li className="w-2/5">
             <p className="text-lg font-medium leading-6 text-gray-900">
-              Why do I need a 6 Star energy rating?
+Was möchtest du werden? 
             </p>
             <p className="mt-2">
               <p className="text-base leading-6 text-gray-500">
